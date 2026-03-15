@@ -1,20 +1,11 @@
 # 🤖 Agentic AI Financial Risk Intelligence System
 
-
-
 [![Python 3.10+](https://img.shields.io/badge/python-3.10-blue.svg)]
-
 [![FastAPI](https://img.shields.io/badge/FastAPI-API-green)]
-
 [![LangChain](https://img.shields.io/badge/LangChain-Agentic_AI-purple)]
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
-
-
 An **autonomous financial risk investigation agent** combining:
-
-
 
 - Machine Learning fraud detection
 
@@ -26,39 +17,21 @@ An **autonomous financial risk investigation agent** combining:
 
 - Real-time API deployment
 
-
-
 The system automatically **detects suspicious financial transactions and generates human-readable investigative reports.**
 
-
-
 ---
-
-
 
 # 🧠 System Architecture
 
-
-
 This project combines **classical ML + Agentic AI**.
-
-
 
 ---
 
-
-
 ## 1️⃣ Fraud Detection Engine
-
-
 
 A supervised ML model trained using **XGBoost** detects suspicious financial transactions.
 
-
-
 ### Key features
-
-
 
 - transaction amount  
 
@@ -68,17 +41,11 @@ A supervised ML model trained using **XGBoost** detects suspicious financial tra
 
 - geographic risk score  
 
-
-
 The model outputs:
-
-
 
 - **Fraud probability**
 
 - **Binary classification**
-
-
 
 ---
 
@@ -86,15 +53,9 @@ The model outputs:
 
 ## 2️⃣ Explainable AI Layer
 
-
-
 Using **SHAP**, the system provides transparent explanations for predictions.
 
-
-
 ### Example output
-
-
 
 ```
 
@@ -108,27 +69,15 @@ Top Risk Drivers:
 
 ```
 
-
-
 This ensures the system remains **auditable and compliant with financial regulations**.
-
-
 
 ---
 
-
-
 ## 3️⃣ Agentic AI Investigation System
-
-
 
 An **LLM-powered autonomous agent** analyzes suspicious transactions and produces investigative reports.
 
-
-
 The agent:
-
-
 
 1. Retrieves explanations  
 
@@ -136,11 +85,7 @@ The agent:
 
 3. Produces risk recommendations  
 
-
-
 ### Built with
-
-
 
 - LangChain
 
@@ -148,23 +93,13 @@ The agent:
 
 - LLaMA3
 
-
-
 ---
-
-
 
 ## 4️⃣ Vector Memory Store
 
-
-
 A **FAISS vector database** stores contextual knowledge for agent reasoning.
 
-
-
 ### Capabilities
-
-
 
 - Semantic similarity search
 
@@ -172,29 +107,17 @@ A **FAISS vector database** stores contextual knowledge for agent reasoning.
 
 - AI-assisted investigation workflows
 
-
-
 ---
-
-
 
 ## Dataset
 
-
-
 This project uses the Credit Card Fraud Detection dataset.
-
-
 
 Download from Kaggle:
 
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-
-
 After downloading:
-
-
 
 1. Extract the file
 
@@ -202,47 +125,25 @@ After downloading:
 
 3. Place it in:
 
-
-
 data/transactions.csv
 
-
-
 ---
-
-
 
 # 🛠 Tech Stack
 
-
-
 | Layer | Technology | Purpose |
-
 |------|------|------|
-
 | ML | XGBoost | Fraud detection |
-
 | Explainability | SHAP | Model interpretability |
-
 | Agents | LangChain | Autonomous investigation |
-
 | LLM | Ollama + LLaMA3 | Local reasoning engine |
-
 | Vector DB | FAISS | Memory retrieval |
-
 | API | FastAPI | Production deployment |
-
 | Tracking | MLflow | Experiment tracking |
-
-
 
 ---
 
-
-
 # 📂 Project Structure
-
-
 
 ```
 
