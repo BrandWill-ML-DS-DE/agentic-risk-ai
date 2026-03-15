@@ -1,46 +1,34 @@
-\# 🤖 Agentic AI Financial Risk Intelligence System
+# 🤖 Agentic AI Financial Risk Intelligence System
 
 
 
-\[!\[Python 3.10+](https://img.shields.io/badge/python-3.10-blue.svg)]
+[![Python 3.10+](https://img.shields.io/badge/python-3.10-blue.svg)]
 
-\[!\[FastAPI](https://img.shields.io/badge/FastAPI-API-green)]
+[![FastAPI](https://img.shields.io/badge/FastAPI-API-green)]
 
-\[!\[LangChain](https://img.shields.io/badge/LangChain-Agentic\_AI-purple)]
+[![LangChain](https://img.shields.io/badge/LangChain-Agentic_AI-purple)]
 
-\[!\[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-
-
-
-An \*\*autonomous financial risk investigation agent\*\* combining:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 
 
-\- Machine Learning fraud detection
-
-\- Explainable AI (SHAP)
-
-\- Agentic LLM reasoning
-
-\- Vector memory retrieval
-
-\- Real-time API deployment
+An **autonomous financial risk investigation agent** combining:
 
 
 
-The system automatically \*\*detects suspicious financial transactions and generates human-readable investigative reports.\*\*
+- Machine Learning fraud detection
+
+- Explainable AI (SHAP)
+
+- Agentic LLM reasoning
+
+- Vector memory retrieval
+
+- Real-time API deployment
 
 
 
----
-
-
-
-\# 🧠 System Architecture
-
-
-
-This project combines \*\*classical ML + Agentic AI\*\*.
+The system automatically **detects suspicious financial transactions and generates human-readable investigative reports.**
 
 
 
@@ -48,25 +36,37 @@ This project combines \*\*classical ML + Agentic AI\*\*.
 
 
 
-\## 1️⃣ Fraud Detection Engine
+# 🧠 System Architecture
 
 
 
-A supervised ML model trained using \*\*XGBoost\*\* detects suspicious financial transactions.
+This project combines **classical ML + Agentic AI**.
 
 
 
-\### Key features
+---
 
 
 
-\- transaction amount  
+## 1️⃣ Fraud Detection Engine
 
-\- account age  
 
-\- transaction type  
 
-\- geographic risk score  
+A supervised ML model trained using **XGBoost** detects suspicious financial transactions.
+
+
+
+### Key features
+
+
+
+- transaction amount  
+
+- account age  
+
+- transaction type  
+
+- geographic risk score  
 
 
 
@@ -74,9 +74,9 @@ The model outputs:
 
 
 
-\- \*\*Fraud probability\*\*
+- **Fraud probability**
 
-\- \*\*Binary classification\*\*
+- **Binary classification**
 
 
 
@@ -84,15 +84,15 @@ The model outputs:
 
 
 
-\## 2️⃣ Explainable AI Layer
+## 2️⃣ Explainable AI Layer
 
 
 
-Using \*\*SHAP\*\*, the system provides transparent explanations for predictions.
+Using **SHAP**, the system provides transparent explanations for predictions.
 
 
 
-\### Example output
+### Example output
 
 
 
@@ -100,17 +100,17 @@ Using \*\*SHAP\*\*, the system provides transparent explanations for predictions
 
 Top Risk Drivers:
 
-\- Transaction Amount
+- Transaction Amount
 
-\- Location Risk
+- Location Risk
 
-\- Account Age
+- Account Age
 
 ```
 
 
 
-This ensures the system remains \*\*auditable and compliant with financial regulations\*\*.
+This ensures the system remains **auditable and compliant with financial regulations**.
 
 
 
@@ -118,11 +118,11 @@ This ensures the system remains \*\*auditable and compliant with financial regul
 
 
 
-\## 3️⃣ Agentic AI Investigation System
+## 3️⃣ Agentic AI Investigation System
 
 
 
-An \*\*LLM-powered autonomous agent\*\* analyzes suspicious transactions and produces investigative reports.
+An **LLM-powered autonomous agent** analyzes suspicious transactions and produces investigative reports.
 
 
 
@@ -130,47 +130,23 @@ The agent:
 
 
 
-1\. Retrieves explanations  
+1. Retrieves explanations  
 
-2\. Evaluates fraud signals  
+2. Evaluates fraud signals  
 
-3\. Produces risk recommendations  
-
-
-
-\### Built with
+3. Produces risk recommendations  
 
 
 
-\- LangChain
-
-\- Ollama
-
-\- LLaMA3
+### Built with
 
 
 
----
+- LangChain
 
+- Ollama
 
-
-\## 4️⃣ Vector Memory Store
-
-
-
-A \*\*FAISS vector database\*\* stores contextual knowledge for agent reasoning.
-
-
-
-\### Capabilities
-
-
-
-\- Semantic similarity search
-
-\- Context retrieval
-
-\- AI-assisted investigation workflows
+- LLaMA3
 
 
 
@@ -178,7 +154,31 @@ A \*\*FAISS vector database\*\* stores contextual knowledge for agent reasoning.
 
 
 
-\## Dataset
+## 4️⃣ Vector Memory Store
+
+
+
+A **FAISS vector database** stores contextual knowledge for agent reasoning.
+
+
+
+### Capabilities
+
+
+
+- Semantic similarity search
+
+- Context retrieval
+
+- AI-assisted investigation workflows
+
+
+
+---
+
+
+
+## Dataset
 
 
 
@@ -196,11 +196,11 @@ After downloading:
 
 
 
-1\. Extract the file
+1. Extract the file
 
-2\. Rename `creditcard.csv` to `transactions.csv`
+2. Rename `creditcard.csv` to `transactions.csv`
 
-3\. Place it in:
+3. Place it in:
 
 
 
@@ -212,7 +212,7 @@ data/transactions.csv
 
 
 
-\# 🛠 Tech Stack
+# 🛠 Tech Stack
 
 
 
@@ -240,7 +240,7 @@ data/transactions.csv
 
 
 
-\# 📂 Project Structure
+# 📂 Project Structure
 
 
 
@@ -256,11 +256,11 @@ agentic-risk-ai
 
 │   ├── agents.py
 
-│   ├── fraud\_model.py
+│   ├── fraud_model.py
 
 │   ├── explainability.py
 
-│   └── vector\_store.py
+│   └── vector_store.py
 
 │
 
@@ -282,11 +282,11 @@ agentic-risk-ai
 
 
 
-\# 🚀 Installation
+# 🚀 Installation
 
 
 
-\## 1️⃣ Install dependencies
+## 1️⃣ Install dependencies
 
 
 
@@ -302,11 +302,11 @@ pip install -r requirements.txt
 
 
 
-\## 2️⃣ Install LLM
+## 2️⃣ Install LLM
 
 
 
-Install \*\*Ollama\*\*
+Install **Ollama**
 
 
 
@@ -330,17 +330,17 @@ ollama pull llama3
 
 
 
-\## 3️⃣ Train Fraud Model
+## 3️⃣ Train Fraud Model
 
 
 
 ```python
 
-from app.fraud\_model import train\_model
+from app.fraud_model import train_model
 
 
 
-train\_model()
+train_model()
 
 ```
 
@@ -350,7 +350,7 @@ train\_model()
 
 
 
-\# ▶ Run API
+# ▶ Run API
 
 
 
@@ -362,17 +362,17 @@ uvicorn app.main:app --reload
 
 
 
-\### Test request
+### Test request
 
 
 
 ```bash
 
-curl -X POST "http://127.0.0.1:8000/analyze" \\
+curl -X POST "http://127.0.0.1:8000/analyze" 
 
--H "Content-Type: application/json" \\
+-H "Content-Type: application/json" 
 
--d '{"amount":5000,"transaction\_type":1,"account\_age":2,"location\_risk":0.8}'
+-d '{"amount":5000,"transaction_type":1,"account_age":2,"location_risk":0.8}'
 
 ```
 
@@ -382,11 +382,11 @@ curl -X POST "http://127.0.0.1:8000/analyze" \\
 
 
 
-\# 🐳 Docker Deployment
+# 🐳 Docker Deployment
 
 
 
-\### Build image
+### Build image
 
 
 
@@ -398,7 +398,7 @@ docker build -t agentic-risk-ai .
 
 
 
-\### Run container
+### Run container
 
 
 
@@ -414,7 +414,7 @@ docker run -p 8000:8000 agentic-risk-ai
 
 
 
-\# 📊 Example Response
+# 📊 Example Response
 
 
 
@@ -422,11 +422,11 @@ docker run -p 8000:8000 agentic-risk-ai
 
 {
 
-&nbsp; "fraud\_prediction": 1,
+&nbsp; "fraud_prediction": 1,
 
-&nbsp; "fraud\_probability": 0.91,
+&nbsp; "fraud_probability": 0.91,
 
-&nbsp; "agent\_report": "Transaction flagged due to unusually high amount and risky location."
+&nbsp; "agent_report": "Transaction flagged due to unusually high amount and risky location."
 
 }
 
@@ -438,17 +438,17 @@ docker run -p 8000:8000 agentic-risk-ai
 
 
 
-\# 🔮 Future Improvements
+# 🔮 Future Improvements
 
 
 
-\- Multi-agent orchestration
+- Multi-agent orchestration
 
-\- Graph-based fraud detection
+- Graph-based fraud detection
 
-\- Streaming transaction monitoring
+- Streaming transaction monitoring
 
-\- Reinforcement learning investigation agents
+- Reinforcement learning investigation agents
 
 
 
@@ -456,11 +456,11 @@ docker run -p 8000:8000 agentic-risk-ai
 
 
 
-\# ⚠ Disclaimer
+# ⚠ Disclaimer
 
 
 
-This project is intended for \*\*research and educational purposes only\*\*.
+This project is intended for **research and educational purposes only**.
 
 
 
