@@ -1,0 +1,13 @@
+langchain
+langchain-community
+ollama
+faiss-cpu
+pandas
+numpy
+xgboost
+scikit-learn
+shap
+fastapi
+uvicorn
+mlflow
+python-dotenv
