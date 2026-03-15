@@ -123,9 +123,7 @@ After downloading:
 
 2. Rename `creditcard.csv` to `transactions.csv`
 
-3. Place it in:
-
-data/transactions.csv
+3. Place it in: data/transactions.csv
 
 ---
 
@@ -146,50 +144,28 @@ data/transactions.csv
 # 📂 Project Structure
 
 ```
-
 agentic-risk-ai
-
 │
-
 ├── app
-
 │   ├── main.py
-
 │   ├── agents.py
-
 │   ├── fraud_model.py
-
 │   ├── explainability.py
-
 │   └── vector_store.py
-
 │
-
 ├── data
-
 │   └── transactions.csv
-
 │
-
 ├── requirements.txt
-
 └── Dockerfile
 
 ```
 
-
-
 ---
-
-
 
 # 🚀 Installation
 
-
-
 ## 1️⃣ Install dependencies
-
-
 
 ```bash
 
@@ -197,27 +173,15 @@ pip install -r requirements.txt
 
 ```
 
-
-
 ---
-
-
 
 ## 2️⃣ Install LLM
 
-
-
 Install **Ollama**
-
-
 
 https://ollama.com
 
-
-
 Pull the model:
-
-
 
 ```bash
 
@@ -225,35 +189,21 @@ ollama pull llama3
 
 ```
 
-
-
 ---
 
-
-
 ## 3️⃣ Train Fraud Model
-
-
 
 ```python
 
 from app.fraud_model import train_model
 
-
-
 train_model()
 
 ```
 
-
-
 ---
 
-
-
 # ▶ Run API
-
-
 
 ```bash
 
@@ -261,11 +211,7 @@ uvicorn app.main:app --reload
 
 ```
 
-
-
 ### Test request
-
-
 
 ```bash
 
@@ -277,19 +223,11 @@ curl -X POST "http://127.0.0.1:8000/analyze"
 
 ```
 
-
-
 ---
-
-
 
 # 🐳 Docker Deployment
 
-
-
 ### Build image
-
-
 
 ```bash
 
@@ -297,11 +235,7 @@ docker build -t agentic-risk-ai .
 
 ```
 
-
-
 ### Run container
-
-
 
 ```bash
 
@@ -309,15 +243,9 @@ docker run -p 8000:8000 agentic-risk-ai
 
 ```
 
-
-
 ---
 
-
-
 # 📊 Example Response
-
-
 
 ```json
 
@@ -333,33 +261,18 @@ docker run -p 8000:8000 agentic-risk-ai
 
 ```
 
-
-
 ---
-
-
 
 # 🔮 Future Improvements
 
-
-
 - Multi-agent orchestration
-
 - Graph-based fraud detection
-
 - Streaming transaction monitoring
-
 - Reinforcement learning investigation agents
-
-
 
 ---
 
-
-
 # ⚠ Disclaimer
-
-
 
 This project is intended for **research and educational purposes only**.
 
