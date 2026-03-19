@@ -1,9 +1,9 @@
 # 🤖 Agentic AI Financial Risk Intelligence System
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10-blue.svg)]
-[![FastAPI](https://img.shields.io/badge/FastAPI-API-green)]
-[![LangChain](https://img.shields.io/badge/LangChain-Agentic_AI-purple)]
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+[![Python 3.10+](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-API-green)](https://fastapi.tiangolo.com/)
+[![LangChain](https://img.shields.io/badge/LangChain-Agentic_AI-purple)](https://www.langchain.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An **autonomous financial risk investigation agent** combining:
 
